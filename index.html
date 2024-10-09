@@ -20,17 +20,19 @@
         min-height: 500px;
     }
 
-    .navbar {
-        height: 100px !important;
-        font-size: larger;
-    }
+   
 </style>
 <body data-bs-spy="scroll">
 
     <!-- Navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Aqua Marine Rides</a>
+        <div class="container">
+            <div>
+                <a class="navbar-brand" href="#home">
+                    <img src="assets/logo-short.png" alt="Logo" height="55">
+                </a>
+            </div>
+            <a class="navbar-brand" href="#" >Aqua Marine Rides</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -165,10 +167,10 @@
 
     <!-- Contact Section -->
     <section id="contact" class="py-5 text-white" style="background-color: #2c3e50;">
-        <div class="container">
-            <h2 class="text-center mb-4">Get In Touch</h2>
-            <div class="row justify-content-center">
+        <div class="container-fluid">
+            <div class="row ms-4">
                 <div class="col-md-6">
+                    <h2 class="text-center mb-4">Get In Touch</h2>
                     <form>
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
@@ -184,6 +186,11 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="ms-5">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4319.704068870798!2d72.83207937567155!3d18.921989156788513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c73a0d5cad%3A0xc70a25a7209c733c!2sGateway%20Of%20India%20Mumbai!5e1!3m2!1sen!2sin!4v1728476184494!5m2!1sen!2sin" width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
